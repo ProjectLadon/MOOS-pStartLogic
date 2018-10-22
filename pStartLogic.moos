@@ -1,0 +1,9 @@
+//------------------------------------------------
+// pStartLogic config block
+
+ProcessConfig = pStartLogic
+{
+   AppTick   = 4
+   CommsTick = 4
+}
+
