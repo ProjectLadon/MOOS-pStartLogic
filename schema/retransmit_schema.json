@@ -1,0 +1,15 @@
+{
+    "$schema": "http://json-schema.org/schema#",
+	"id": "RetransmitMessageJSON",
+	"type": "object",
+    "properties": {
+        "input_msg": {"type": "string"},
+        "output_msg": {"type": "string"},
+        "default_msg": {
+            "anyOf": [
+                {"type": "string"},
+                {"type": "number"}
+            ]
+        }
+    }
+}   

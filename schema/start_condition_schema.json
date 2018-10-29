@@ -1,0 +1,18 @@
+{
+    "$schema": "http://json-schema.org/schema#",
+	"id": "StartConditionJSON",
+	"type": "object",
+    "properties": {
+        "msg": {"type": "string"},
+        "delay": {"type": "integer"},
+        "truth_conditions": {
+            "type": "array",
+            "items": {
+                "anyOf": [
+                    {"type": "string"},
+                    {"type": "integer"}
+                ]}
+            }
+        }
+    }
+}
